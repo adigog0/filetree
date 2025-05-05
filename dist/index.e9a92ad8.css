@@ -1,0 +1,119 @@
+.main-container {
+  background-color: #090909;
+}
+
+.root {
+  width: 100%;
+  border: 1px solid gray;
+  display: flex;
+}
+
+.directories {
+  width: 30%;
+  color: #979595;
+  height: 100vh;
+  background-color: #1e1e1e;
+  border: 1px solid gray;
+  padding: .5rem;
+}
+
+.contents {
+  width: 70%;
+  background-color: #090909;
+  border: 3px solid #5c5c5c;
+}
+
+.root-folder img {
+  height: 1.2rem;
+  float: right;
+  margin: 0 .2rem;
+}
+
+.createbutton {
+  color: #bebebe;
+  cursor: pointer;
+  background-color: #1e1e1e;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: .3rem;
+  display: flex;
+}
+
+.createbutton img {
+  height: 1rem;
+}
+
+.input {
+  width: 100%;
+  color: #f0f8ff;
+  background-color: #1e1e1e;
+  margin-top: 1rem;
+}
+
+.folder {
+  color: #f0f8ff;
+  margin-top: .5rem;
+  margin-left: var(--indent);
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.toggle {
+  color: #f0f8ff;
+}
+
+.action-containers {
+  float: right;
+  justify-content: center;
+  display: flex;
+}
+
+.icon {
+  height: 1.2rem;
+  cursor: pointer;
+  margin-right: .3rem;
+}
+
+.file-input {
+  width: 100%;
+  color: #f0f8ff;
+  background-color: #1e1e1e;
+  margin-top: .5rem;
+}
+
+.file-container {
+  color: #fff;
+  margin-top: .5rem;
+  display: flex;
+}
+
+.file-icon {
+  height: 1rem;
+  align-items: center;
+}
+
+.file-deleteIcon {
+  height: 1rem;
+  float: right;
+  margin-left: auto;
+}
+
+.file-text {
+  margin-left: .5rem;
+}
+
+.file-deleteIcon {
+  cursor: pointer;
+}
+
+button {
+  background-color: #1e1e1e;
+  border: none;
+  padding: 0;
+}
+
+/*# sourceMappingURL=index.e9a92ad8.css.map */

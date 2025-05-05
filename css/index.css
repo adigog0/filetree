@@ -1,0 +1,111 @@
+.main-container{
+    background-color: #090909;
+}
+.root{
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+   
+}
+
+.directories{
+    border:1px solid grey;
+    background-color: #1e1e1e;
+    width:30%;
+    color: #979595;
+    height: 100vh;
+    padding: .5rem;
+}
+.contents{
+    background-color: #090909;
+    border:3px solid rgb(92, 92, 92);
+    width: 70%;
+}
+
+
+.root-folder img{
+    height:1.2rem;
+    float: right;
+    margin: 0 .2rem;
+}
+.createbutton{
+    padding: .3rem;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: #1e1e1e ;
+    color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.createbutton img{
+    height: 1rem;
+}
+
+.input{
+    background-color: #1e1e1e;
+    width: 100%;
+    color: aliceblue;
+    margin-top: 1rem;
+}
+.folder{
+    border:1px solid rgb(136, 136, 136);
+    color: aliceblue;
+    margin-top: .5rem;
+    padding: .5rem;
+    border-radius: 5px;
+    margin-left: var(--indent);
+}
+
+.toggle{
+    color: aliceblue;
+}
+
+.action-containers{
+    float: right;
+    display: flex;
+    justify-content: center;
+    /* pointer-events: none; */
+}
+.icon{
+    height:1.2rem;
+    margin-right: .3rem;
+    cursor: pointer;
+    
+
+}
+
+.file-input{
+    margin-top: .5rem;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: aliceblue;
+}
+.file-container{
+    display: flex;
+    color:white;
+    margin-top: .5rem;
+}
+.file-icon{
+    height: 1rem;
+    align-items: center;
+}
+.file-deleteIcon{
+    height: 1rem;
+    float: right;
+    margin-left: auto;
+}
+.file-text{
+    margin-left: .5rem;
+}
+.file-deleteIcon{
+    cursor: pointer;
+}
+
+button{
+    background-color: #1e1e1e;
+    padding: 0;
+    border: none;
+}
